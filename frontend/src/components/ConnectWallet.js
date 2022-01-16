@@ -15,8 +15,22 @@ export function ConnectWallet({ connectWallet, networkError, dismiss }) {
             />
           )}
         </div>
+
         <div className="col-6 p-4 text-center">
-          <p>Please connect to your wallet.</p>
+
+          <h1> My Future Lab </h1> 
+          <h3> A Decentralised NFT Marketplace</h3> 
+          
+          <br></br>
+          
+            
+
+          <br></br>
+
+          <p>To login, connect to your wallet </p>
+          
+          <br></br>
+
           <button
             className="btn btn-warning"
             type="button"

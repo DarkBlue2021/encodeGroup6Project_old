@@ -1,8 +1,4 @@
-# Hardhat Hackathon Boilerplate
-
-This repository contains a sample project that you can use as the starting point
-for your Ethereum project. It's also a great fit for learning the basics of
-smart contract development.
+# My Future Lab - a Decentralised NFT Marketplace
 
 This project is intended to be used with the
 [Hardhat Beginners Tutorial](https://hardhat.org/tutorial), but you should be
@@ -15,8 +11,8 @@ The first things you need to do are cloning this repository and installing its
 dependencies:
 
 ```sh
-git clone https://github.com/nomiclabs/hardhat-hackathon-boilerplate.git
-cd hardhat-hackathon-boilerplate
+git clone https://github.com/DarkBlue2021/encodeGroup6Project.git
+cd encodeGroup6Project
 npm install
 ```
 
@@ -25,6 +21,8 @@ Once installed, let's run Hardhat's testing network:
 ```sh
 npx hardhat node
 ```
+
+Note the Contract Account, and Token Address
 
 Then, on a new terminal, go to the repository's root folder and run this to
 deploy your contract:
@@ -79,11 +77,12 @@ Your environment will have everything you need to build a Dapp powered by Hardha
   transaction history and also the nonce. Open Metamask, click on your account
   followed by `Settings > Advanced > Reset Account`.
 
-## Feedback, help and news
+  NOTES: 
+  Compile Hardhat contracts: 
+     npx hardhat compile
 
-We'd love to have your feedback on this tutorial. Feel free to reach us through
-this repository or [our Discord server](https://invite.gg/HardhatSupport).
+  Test Hardhat contracts: 
+     npx hardhat test
 
-Also you can [follow us on Twitter](https://twitter.com/HardhatHQ).
+  
 
-**Happy _buidling_!**
