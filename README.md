@@ -84,5 +84,8 @@ Your environment will have everything you need to build a Dapp powered by Hardha
   Test Hardhat contracts: 
      npx hardhat test
 
-  
+   DotEnv
+     yarn add --dev dotenv
 
+npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploy.js --network rinkeby
